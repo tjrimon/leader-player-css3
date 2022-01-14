@@ -1,7 +1,7 @@
 /*===============
    Google Fonts
 ================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
 
 
 /*===============
@@ -22,9 +22,13 @@ body{
     width: 870px;
     margin: 36px 0px 21px;
     border-radius: 5px;
+    background-color: #fff;
+    padding: 30px 30px 5px;
 }
 main{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -49,8 +53,7 @@ hr{
    Top Player and Blog section here
 =====================================*/
 .top-player-blog-section{
-    background-color: #fff;
-    padding: 30px 30px 5px;
+
 }
 .players{
     display: grid;
@@ -77,20 +80,11 @@ display: grid;
 grid-template-columns: repeat(2 ,1fr);
 }
 .blog{
-
-display: flex;
-
-/* align-items: center; */
-
-/* justify-content: center; */
-
+    display: flex;
     margin-bottom: 26px;
 }
 .thambnail img{
-
     width: 177px;
-
-/* height: 177px; */
 }
 .content{
     width: 200px;
@@ -110,3 +104,51 @@ display: flex;
     font-size: 16px;   
     line-height: 24px;
 }
+
+/*===================================
+   Top Player and Blog section here
+=====================================*/
+
+#course-section{
+
+}
+.all-course{
+
+display: grid;
+
+grid-template-columns: repeat(3,1fr);
+}
+.course-item{
+    
+}
+.course-content img{
+    width: 224px;
+}
+.course-content h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 17px 46px 5px 0px;
+}
+.course-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ED6B4F;
+    padding-bottom: 18px;
+}
+.course-info{
+    display: flex;
+}
+.course-info i{
+    color: #FFC014;
+    width: 12px;
+    height: 11px;
+    margin-right: 8px;
+}
+.course-info p{}
+.course-info > i > .unfilled{
+    color:#AEAEAE;
+}
+.course-info .course-time{}
+.course-info .course-time span{}
